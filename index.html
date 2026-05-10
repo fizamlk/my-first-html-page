@@ -1,60 +1,229 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Personal Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiza Malik - Personal Profile</title>
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color:white;
+        }
+
+        .container{
+            width:85%;
+            margin:30px auto;
+            background: rgba(255,255,255,0.1);
+            padding:30px;
+            border-radius:20px;
+            backdrop-filter: blur(10px);
+            box-shadow:0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            text-align:center;
+            font-size:45px;
+            color:#ffd369;
+        }
+
+        h2{
+            color:#ffeaa7;
+            margin-top:30px;
+            border-bottom:2px solid #ffd369;
+            padding-bottom:5px;
+        }
+
+        p{
+            line-height:1.8;
+            font-size:17px;
+        }
+
+        ul{
+            background:rgba(255,255,255,0.1);
+            padding:20px 40px;
+            border-radius:15px;
+        }
+
+        li{
+            margin:10px 0;
+        }
+
+        .profile-img{
+            display:block;
+            margin:20px auto;
+            width:220px;
+            border-radius:20px;
+            border:4px solid #ffd369;
+            box-shadow:0 5px 15px rgba(0,0,0,0.4);
+        }
+
+        .cg-img{
+            display:block;
+            margin:20px auto;
+            width:180px;
+            border-radius:15px;
+            border:3px solid white;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:20px;
+            background:white;
+            color:black;
+            border-radius:10px;
+            overflow:hidden;
+        }
+
+        th{
+            background:#ffd369;
+            color:black;
+        }
+
+        th, td{
+            padding:14px;
+            border:1px solid #ddd;
+            text-align:center;
+        }
+
+        a{
+            color:#ffd369;
+            font-weight:bold;
+            text-decoration:none;
+        }
+
+        a:hover{
+            color:white;
+        }
+
+        .links a{
+            display:block;
+            margin:12px 0;
+            font-size:18px;
+        }
+
+        audio{
+            margin-top:15px;
+            width:100%;
+        }
+
+        .footer{
+            text-align:center;
+            margin-top:30px;
+            color:#ddd;
+        }
+
+    </style>
 </head>
-<body style="background-color: lightblue; font-family: Arial;">
-    <h1 style="color: darkblue;">My Personal Profile</h1>
-    <h2>About Me</h2>
-    <p>Hello! My name is Fiza Shahbaz. I am a CSC101 student. I am learning HTML in my computer science lab.</p>
-    <h2>My Hobbies</h2>
-    <ul>
-        <li>Reading</li>
-        <li>Badminton</li>
-        <li>Gaming</li>
-        <li>Learning about computers</li>
-    </ul>
-    <h2>My Favorite Subjects</h2>
-    <ol>
-        <li>Computer Science</li>
-        <li>Mathematics</li>
-        <li>English</li>
-    </ol>
-    <h2>My Favorite Website</h2>
-    <p>
-        Visit my favorite website:
-       https://www.khanacademy.orgKhan Academy</a>
-    </p>
-    <h2>My Picture</h2>
-    <img 
-  src="https://media.cntraveller.com/photos/611befd322be3ca7e5c00d83/master/w_1600%2Cc_limit/cappadocia-gettyimages-497513346.jpg" 
-  alt="Cappadocia View"
-  width="250"
-  style="border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-    <h2>My Academic Information</h2>
-    <table border="1">
-        <tr>
-            <th>Field</th>
-            <th>Information</th>
-        </tr>
-        <tr>
-            <td>Name</td>
-            <td>Fiza Shahbaz6</td>
-        </tr>
-        <tr>
-            <td>Course</td>
-            <td>CSC101</td>
-        </tr>
-        <tr>
-            <td>Program</td>
-            <td>BS Electronics and Computing</td>
-        </tr>
-        <tr>
-            <td>Semester</td>
-            <td>1st Semester</td>
-        </tr>
-    </table>
-    <h2>My Future Goal</h2>
-    <p>My goal is to become a skilled software developer and build useful applications.</p>
+
+<body>
+
+    <div class="container">
+
+        <h1>Fiza Malik</h1>
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Fiza Malik. I am a student of Electronics and Computing.
+            I am passionate about technology, creativity, and learning modern computing
+            skills. I enjoy exploring innovative ideas and improving my technical abilities.
+        </p>
+
+        <h2>My Hobbies</h2>
+
+        <ul>
+            <li>Photography</li>
+            <li>Listening to Music</li>
+            <li>Traveling</li>
+            <li>Watching Tech Content</li>
+            <li>Designing Creative Projects</li>
+        </ul>
+
+        <h2>Favorite Subjects</h2>
+
+        <ul>
+            <li>Programming Fundamentals</li>
+            <li>Electronics</li>
+            <li>Computer Systems</li>
+            <li>Mathematics</li>
+        </ul>
+
+        <h2>Working Links</h2>
+
+        <div class="links">
+
+            <a href="https://github.com/fizamlk/CSC101-fizashahbaz-SP2026.git" target="_blank">
+                My GitHub Repository
+            </a>
+
+            <a href="https://www.linkedin.com/in/fiza-malik-4293233ba/" target="_blank">
+                My LinkedIn Profile
+            </a>
+
+        </div>
+
+        <p>
+            <strong>Discord Username:</strong> fizashahbaz_cui
+        </p>
+
+        <h2>Favorite Music</h2>
+
+        <audio controls>
+            <source src="boss music.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+
+        <h2>My Profile Picture</h2>
+
+        <img class="profile-img"
+        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop"
+        alt="Profile Picture">
+
+        <h2>CG Image</h2>
+
+        <img class="cg-img"
+        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop"
+        alt="CG Image">
+
+        <h2>Academic Information</h2>
+
+        <table>
+
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Program</th>
+                <th>Semester</th>
+            </tr>
+
+            <tr>
+                <td>Fiza Malik</td>
+                <td>CSC101</td>
+                <td>Electronics and Computing</td>
+                <td>1st Semester</td>
+            </tr>
+
+        </table>
+
+        <h2>Future Goal</h2>
+
+        <p>
+            My future goal is to become a successful technology professional and
+            work on innovative projects in electronics and computing. I want to
+            continue learning advanced technologies and contribute positively to
+            the tech industry.
+        </p>
+
+        <div class="footer">
+            <p>© 2026 Fiza Malik | Personal Profile Webpage</p>
+        </div>
+
+    </div>
+
 </body>
 </html>
